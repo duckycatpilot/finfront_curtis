@@ -19,6 +19,7 @@ variables:
 
 steps:
 - script: |
+    az devops logout
     echo "Installing Azure DevOps CLI extension..."
     az extension add --name azure-devops || echo "Already installed."
 
