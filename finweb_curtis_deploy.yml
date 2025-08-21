@@ -5,17 +5,17 @@ pool:
 
 variables:
   - name: projectName
-    value: '<<<Training-Student-013-OC007>>>'            # <-- Update this
+    value: 'Training-Student-013-OC007'            # <-- Update this
   - name: buildPipelineName
-    value: '<<<finweb_curtis_build>>>'          # <-- Update this
+    value: 'finweb_curtis_build'          # <-- Update this
   - name: artifactName
     value: 'frontend'        
   - name: targetFile
     value: 'app.py'                             # Optional: Which file inside artifact to display
   - name: resourceGroup
-    value: '<<<Training-Student-013-OC007>>>'        # <-- Update this
+    value: 'Training-Student-013-OC007'        # <-- Update this
   - name: webAppName
-    value: '<<<finweb_curtis>>>'                # <-- Update this Azure Web App target
+    value: 'finweb_curtis'                # <-- Update this Azure Web App target
 
 steps:
 - script: |
